@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="em">
+ <head>
+  <meta charset="UTF - 8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>document</title>
+  <link rel="stylesheet" href="styl.css">
+ </head>
+</html>
+
+<body>
+<div id="header"> 
+   <div class="container"> 
+      <nav>
+       <img src="images/logopk.jpeg" class="logo">
+       <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">Aboutme</a></li>
+       </ul>
+     </nav>
+      <div class="header-text">
+      <p>Frontend developer</p>
+      <h1>Hi,I'm <span>prem</span><br>computerScience engineer</h1>
+      </div>
+   </div>
+</div>
+
+<div id="about">
+ <div class="container">
+   <div class="row">
+    <div class="about-col-1">
+     <img src="images/nevermind.jpeg">
+    </div>
+    <div class="about-col-2">
+     <h1>About Me</h1>
+     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur velit recusandae vitae in! Laudantium maxime inventore distinctio corrupti earum consectetur sit natus illo. Magnam officiis ipsam ex qui culpa quis!</p>
+     <div class="tab-titles">
+      <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+      <p class="tab-links active-link" onclick="opentab('experience')" >experience</p>
+      <p class="tab-links active-link" onclick="opentab('education')">education</p>
+     </div>
+     <div class="tab-contents active-tab" id="skills">
+      <ul>
+         <li><span>Datascience</span><br>analysing data</li>
+         <li><span>Datascience</span><br>analysing data</li>
+         <li><span>Datascience</span><br>analysing data</li>
+      </ul>
+     </div>
+   <div class="tab-contents" id="experience">
+      <ul>
+         <li><span>2022</span><br>IOT intern</li>
+         <li><span>2023</span><br>NSIC webdevelopment intern</li>
+      </ul>
+   </div>
+   <div class="tab-contents" id="education">
+      <ul>
+         <li><span>2023</span><br>data visualisation using python</li>
+         <li><span>2022</span><br>udemy python certification</li>
+         <li><span>2023</span><br></li>
+      </ul>
+   </div>
+    </div>
+   </div>
+ </div>
+</div>
+</body>
+</html>
